@@ -6,19 +6,10 @@ description: | # 头像背后的信息，<br/>代表换行
   田宫例四驱车<br/>
   ASC<br/>
   <a href="mailto:201830081093@smail.hunnu.edu.cn" title="JODE's Email">
-    <i class="fas fa-envelope"></i>
+    <i class="fas fa-envelope"></i># 后面是图标
   </a>
-  <a href="https://github.com/wu-kan" title="github">
+  <a href="https://github.com/JODE-HRK" title="JODE's github">
     <i class="fab fa-github"></i>
-  </a>
-  <a href="https://codeforces.com/profile/WuK" title="WuK">
-    <i class="fas fa-chart-bar"></i>
-  </a>
-  <a href="https://vjudge.net/user/WuK" title="WuK">
-    <i class="fas fa-smile"></i>
-  </a>
-  <a href="https://www.zhihu.com/people/wu.kan/activities" title="zhihu">
-    <i class="fab fa-zhihu"></i>
   </a>
   <iframe
     src="https://music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"
