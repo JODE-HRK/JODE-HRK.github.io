@@ -19,7 +19,7 @@ title: Home
 - **Markdown**, learning
 - **Linux**, Learning
 - **Git**, Learning
-- **VSCode**, learning
+- **JAVA**，learning
 
 ## Leadership
 
