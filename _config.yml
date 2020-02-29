@@ -79,9 +79,11 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - | # 支持的变量见<https://merger.justhx.com/cn/docs/configure>
         <script>
           var usage = "payment";
-          var wechat = "wxp://JODE-HRK.github.io/wx.png";
-          var alipay = "JODE-HRK.github.io/ali.jpg";
-          var myname = "WuK";
+          var wechat = "wxp://f2f0LavS1YsV9WzcDO_3gZzPxAs9CKnxb7lo";
+          var alipay = "HTTPS://QR.ALIPAY.COM/FKX073545YYPJ7YFUEBMF2";
+          var tenpay = "944515842@qq.com"
+          var paypal = ""
+          var myname = "贺榕宽";
           var profile = "JODE-HRK.github.io/head.jpg";
           var multilingual = true;
           var myname_hans = "贺榕宽";
