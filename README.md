@@ -1,10 +1,10 @@
-# 新生
+# 新生 New Life
 
 欢迎访问我的个人主页！我是JODE！
 
 <!-- slide -->
 
-## 我的联系方式
+## My Contacts
 
 - Phone: **+86 18390948041**
 - Site:  **www.joderider.cn**
@@ -17,7 +17,7 @@
 
 <!-- slide -->
 
-## 我的一些技能
+## My Skills
 
 <!-- slide vertical=true -->
 
@@ -28,7 +28,7 @@
 
 <!-- slide -->
 
-## 我的一些成就
+## My Achievement
 
 - **2019年 北京DoraHack黑客马拉松  微软赛道冠军**
 - **湖南省ACM省赛 一等奖（金牌）**
