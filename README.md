@@ -7,7 +7,7 @@
 ## 我的联系方式
 
 - Phone: **+86 18390948041**
-- Site: **<www.joderider.cn>**
+- Site:  **www.joderider.cn**
 
 <!-- slide vertical=true -->
 
