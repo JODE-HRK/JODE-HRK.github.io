@@ -3,7 +3,6 @@ tagline: JODE
 description: | # 头像背后的信息，<br/>代表换行
   HUNNU计科18级在读<br/>
   永远喜欢孤独<br/>
-  田宫例四驱车<br/>
   ASC<br/>
   <a href="mailto:201830081093@smail.hunnu.edu.cn" title="JODE's Email">
     <i class="fas fa-envelope"></i> 
@@ -20,8 +19,8 @@ description: | # 头像背后的信息，<br/>代表换行
     marginwidth="0"
     marginheight="0"
   ></iframe>
-url: https://wu-kan.cn # https://wu-kan.github.io
-baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
+url: https://joderrider.cn # https://wu-kan.github.io
+baseurl: "/JODE-HRK.github.io" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 plugins: # https://jekyllrb.com/docs/plugins/
   - jekyll-remote-theme # githubpage上支持的插件见https://pages.github.com/versions/
@@ -64,9 +63,9 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           var myname = "WuK";
           var profile = "https://gravatar.loli.net/avatar/a12c5fff23dde00df79af9aca4e7b6e4?s=300";
           var multilingual = true;
-          var myname_hans = "吴坎";
-          var myname_hant = "吴坎";
-          var myname_eng = "WuK";
+          var myname_hans = "贺榕宽";
+          var myname_hant = "贺榕宽";
+          var myname_eng = "JODE";
           var title = "选择你的支付方式";
           var subtitle = "跟随进一步的指示以向" + myname + "付款";
           var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
@@ -86,10 +85,10 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - | # merger的页面样式
         <link
           rel="stylesheet"
-          href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.21.1/assets/styles/style.min.css"
+          href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/styles/style.min.css"
         />
         <script
-          src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/assets/js/function.min.js,gh/hifocus/merger@0.21.1/assets/js/font_974919_xgtacm93vxp.min.js'
+          src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/js/function.min.js,gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/js/font_974919_xgtacm93vxp.min.js'
           defer='defer'
         ></script>
   tags:
@@ -193,7 +192,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             defer='defer'
             onload='
               SimpleJekyllSearch({
-                json: "/assets/simple-jekyll-search/search.json",
+                json: "/JODE-HRK.github.io/assets/simple-jekyll-search/search.json",
                 searchInput: document.getElementById("sidebar-search-input"),
                 resultsContainer: document.getElementById("sidebar-search-results-container"),
                 searchResultTemplate: `<li><a href="{url}">{title}</a></li>`,
@@ -214,7 +213,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         - | # Copyright
           <div>
             <i class="fas fa-copyright fa-fw"></i>
-            2017-2020 WuK
+            2020-2020 JODE
           </div>
         - | # 运行时间
           <div>
@@ -254,7 +253,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
                 document.getElementById("run_time_hour").innerHTML = setzero(hrsold);
                 document.getElementById("run_time_minute").innerHTML = setzero(minsold);
                 document.getElementById("run_time_second").innerHTML = setzero(seconds);
-              }, 1000, "10/04/2017 11:03:56") // 这是我第一篇CSDN博客的时间
+              }, 1000, "20/02/2020 11:03:56") // 这是我第一篇CSDN博客的时间
             </script>
           </div>
         - | # 不蒜子页面统计
@@ -514,11 +513,11 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           background-position: center top;
           background-repeat: no-repeat;
           background-attachment: fixed;
-          background-image: url(https://cdn.jsdelivr.net/gh/wu-kan/jekyll-theme-WuK/assets/image/74559485_p1.webp);
+          background-image: url(https://cdn.jsdelivr.net/gh/wu-kan/jekyll-theme-WuK/JODE-HRK.github.io/assets/image/74559485_p1.webp);
         }
         @media (min-aspect-ratio: 2400/1850) {
           .wrap {
-            background-image: url(https://cdn.jsdelivr.net/gh/wu-kan/jekyll-theme-WuK/assets/image/71932901_p0.webp);
+            background-image: url(https://cdn.jsdelivr.net/gh/wu-kan/jekyll-theme-WuK/JODE-HRK.github.io/assets/image/71932901_p0.webp);
           }
         }
         .masthead {
