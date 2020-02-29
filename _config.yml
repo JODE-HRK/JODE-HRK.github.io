@@ -1,17 +1,13 @@
-﻿title: wu-kan # 站点标题
+﻿title: JODE # 站点标题
 description: | # 头像背后的信息，<br/>代表换行
   HUNNU18级在读<br/>
   永远喜欢孤独<br/>
   但热爱生活<br/>
-  ASC<br/>
   <a href="mailto:944515842@qq.com">
     <i class="fas fa-envelope"></i>
   </a>
   <a href="https://github.com/JODE-HRK">
     <i class="fab fa-github"></i>
-  </a>
-  <a href="https://www.luogu.com.cn/user/28338">
-    <i class="fab fa-luogu"></i>
   </a>
   <iframe
     src="https://music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"
@@ -383,7 +379,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
                 document.getElementById("run_time_hour").innerHTML = setzero(hrsold);
                 document.getElementById("run_time_minute").innerHTML = setzero(minsold);
                 document.getElementById("run_time_second").innerHTML = setzero(seconds);
-              }, 1000, "29/02/2020 22:00:00") // 这是我第一篇CSDN博客的时间
+              }, 1000, "01/01/2020 22:00:00") // 这是我第一篇CSDN博客的时间
             </script>
           </div>
         - | # 不蒜子页面统计
@@ -452,7 +448,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         <link
           rel="shortcut
           icon"
-          href="https://gravatar.loli.net/avatar/a12c5fff23dde00df79af9aca4e7b6e4?s=32"
+          href="JODE-HRK.github.io/head.jpg"
         />
       - | # 来自lanyon的页面样式
         <link
