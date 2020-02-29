@@ -28,7 +28,7 @@
 
 <!-- slide -->
 
-## My Achievement
+## My Achievements
 
 - **2019年 北京DoraHack黑客马拉松  微软赛道冠军**
 - **湖南省ACM省赛 一等奖（金牌）**
