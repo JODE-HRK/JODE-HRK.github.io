@@ -3,7 +3,7 @@ tagline: JODE
 description: | # 头像背后的信息，<br/>代表换行
   HUNNU计科18级在读<br/>
   永远喜欢孤独<br/>
-  ASC<br/>
+  但热爱生活<br/>
   <a href="mailto:201830081093@smail.hunnu.edu.cn" title="JODE's Email">
     <i class="fas fa-envelope"></i> 
   </a>
@@ -85,10 +85,10 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - | # merger的页面样式
         <link
           rel="stylesheet"
-          href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/styles/style.min.css"
+          href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.21.1/assets/styles/style.min.css"
         />
         <script
-          src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/js/function.min.js,gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/js/font_974919_xgtacm93vxp.min.js'
+          src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/assets/js/function.min.js,gh/hifocus/merger@0.21.1/assets/js/font_974919_xgtacm93vxp.min.js'
           defer='defer'
         ></script>
   tags:
