@@ -1,28 +1,34 @@
----
-title: Home
----
+# 新生
 
-## Contact
+欢迎访问我的个人主页！我是JODE！
+
+<!-- slide -->
+
+## 我的联系方式
 
 - Phone: **+86 18390948041**
-- E-mail:
-  - **944515842@qq.com**
-  - **201830081093@smail.hunnu.edu.cn**
+- Site: **<www.joderider.cn>**
+
+<!-- slide vertical=true -->
+
+- E-mail:**944515842@qq.com**
 - WeChat: **JODEhrk**
 - QQ: **944515842**
-- Site: **<http://www.joderider.cn/>**
 
-## Skill
+<!-- slide -->
 
-- **C/C++**, learning
-  - **Algorithm**, learning
-- **Markdown**, learning
-- **Linux**, Learning
+## 我的一些技能
+
+<!-- slide vertical=true -->
+
+- **C/C++**, Learning
+  - **Algorithm** Learning
+- **JAVA**, Familiar
 - **Git**, Learning
-- **JAVA**，learning
 
-## Leadership
+<!-- slide -->
 
-TBD
+## 我的一些成就
 
-## Essay
+- **2019 北京DoraHack黑客马拉松  微软赛道冠军**
+- **湖南省ACM省赛 一等奖（金牌）**
