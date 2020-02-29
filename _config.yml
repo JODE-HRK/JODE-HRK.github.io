@@ -81,7 +81,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           var usage = "payment";
           var wechat = "wxp://f2f0LavS1YsV9WzcDO_3gZzPxAs9CKnxb7lo";
           var alipay = "HTTPS://QR.ALIPAY.COM/FKX073545YYPJ7YFUEBMF2";
-          var tenpay = "944515842@qq.com"
+          var tenpay = "https://github.com"
           var paypal = ""
           var myname = "贺榕宽";
           var profile = "JODE-HRK.github.io/head.jpg";
