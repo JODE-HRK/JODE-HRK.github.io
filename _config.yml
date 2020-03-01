@@ -443,12 +443,12 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - | # 网站小图标
         <link
           rel="apple-touch-icon-precomposed"
-          href="JODE-HRK.github.io/head.jpg"
+          href="/head.jpg"
         />
         <link
           rel="shortcut
           icon"
-          href="JODE-HRK.github.io/head.jpg"
+          href="/head.jpg"
         />
       - | # 来自lanyon的页面样式
         <link
