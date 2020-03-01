@@ -188,7 +188,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - | # 代码块背景透明（否则mermaid受影响），且代码块超过半屏的时候自动折叠增加阅读体验
         <style>
           pre {
-            max-height: 50vh;
+            max-height: 100vh;
             overflow: auto;
             background-color: rgba(0, 0, 0, 0);
           }
@@ -570,11 +570,11 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             background-position: center top;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-image: url(https://cdn.jsdelivr.net/gh/wu-kan/jekyll-theme-WuK@3.1.0/JODE-HRK.github.io/assets/image/74559485_p1.webp);
+            background-image: url(https://cdn.jsdelivr.net/gh/wu-kan/jekyll-theme-WuK@3.1.0/assets/image/74559485_p1.webp);
           }
           @media (min-aspect-ratio: 2400/1850) {
             .wrap {
-              background-image: url(https://cdn.jsdelivr.net/gh/wu-kan/jekyll-theme-WuK@3.1.0/JODE-HRK.github.io/assets/image/71932901_p0.webp);
+              background-image: url(https://cdn.jsdelivr.net/gh/wu-kan/jekyll-theme-WuK@3.1.0/assets/image/71932901_p0.webp);
             }
           }
         </style>
