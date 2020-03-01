@@ -19,7 +19,7 @@ description: | # 头像背后的信息，<br/>代表换行
     marginheight="0"
   ></iframe>
 url: https://wu-kan.cn # https://wu-kan.github.io
-baseurl: "JODE-HRK.github.io" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有（并不是所有，merge付款界面不需要加）链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
+baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有（并不是所有，merge付款界面不需要加）链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 # githubpage上支持的插件见<https://pages.github.com/versions/>
 plugins: # <https://jekyllrb.com/docs/plugins/>
