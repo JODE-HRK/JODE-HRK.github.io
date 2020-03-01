@@ -82,7 +82,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           var wechat = "wxp://f2f0LavS1YsV9WzcDO_3gZzPxAs9CKnxb7lo";
           var alipay = "HTTPS://QR.ALIPAY.COM/FKX073545YYPJ7YFUEBMF2";
           var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQgtawwgMYhq3s8gU%3D_xxx_sign&u=944515842&n=%E6%AD%BB%E8%8F%9C%E9%B8%A1%2F8*"
-          
+          var paypal = ""
           var myname = "JODE";
           var profile = "JODE-HRK.github.io/head.jpg";
           var multilingual = true;
