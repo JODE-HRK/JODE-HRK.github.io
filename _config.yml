@@ -84,7 +84,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQgtawwgMYhq3s8gU%3D_xxx_sign&u=944515842&n=%E6%AD%BB%E8%8F%9C%E9%B8%A1%2F8*"
           var paypal = ""
           var myname = "JODE";
-          var profile = "JODE-HRK.github.io/head.jpg";
+          var profile = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583038905574&di=1f939bf35b3fd2025f29473930bde8a4&imgtype=jpg&src=http%3A%2F%2F17woo.tgbusdata.cn%2Fforum%2F201408%2F31%2F14462695um24uod40mgsq9.jpg";
           var multilingual = true;
           var myname_hans = "贺榕宽";
           var myname_hant = "贺榕宽";
