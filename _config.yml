@@ -63,7 +63,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           hash: true,
           mouseWheel: true,
           navigationMode: 'linear',
-          parallaxBackgroundImage: 'JODE-HRK.github.io/background.jpg',//这是一张纯白图
+          parallaxBackgroundImage: 'JODE-HRK.github.io/background.jpg',//首页背景图
           dependencies: [
               { src: path+'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
               { src: path+'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
@@ -111,7 +111,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/styles/style.min.css"
         />
         <script
-          src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/js/function.min.js,gh/hifocus/merger@0.21.1/JODE-HRK.github.io/assets/js/font_974919_xgtacm93vxp.min.js'
+          src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/assets/js/function.min.js,gh/hifocus/merger@0.21.1/assets/js/font_974919_xgtacm93vxp.min.js'
           defer='defer'
         ></script>
   page404:
