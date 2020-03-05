@@ -570,11 +570,11 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             background-position: center top;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-image: url(https://cdn.jsdelivr.net/gh/JODE-HRK/JODE-HRK.github.io/head.jpg);
+            background-image: url(/head.jpg);
           }//image需要github图床
           @media (min-aspect-ratio: 2400/1850) {
             .wrap {
-              background-image: url(https://cdn.jsdelivr.net/gh/JODE-HRK/JODE-HRK.github.io/head.jpg);
+              background-image: url(/head.jpg);
             }
           }
         </style>
