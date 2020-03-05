@@ -9,14 +9,15 @@ description: | # 头像背后的信息，<br/>代表换行
   <a href="https://github.com/JODE-HRK">
     <i class="fab fa-github"></i>
   </a>
-<iframe frameborder="no" 
-border="0" 
-marginwidth="0" 
-marginheight="0" 
-width=330 
-height=86 
-src="//music.163.com/outchain/player?type=2&id=26629704&auto=1&height=66"
-></iframe>
+  <iframe
+    src="https://music.163.com/outchain/player?type=2&id=26629704&auto=1&height=66"
+    width=100%
+    height=52
+    frameborder="no"
+    border="0"
+    marginwidth="0"
+    marginheight="0"
+  ></iframe>
 url: https://wu-kan.cn # https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有（并不是所有，merge付款界面不需要加）链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
