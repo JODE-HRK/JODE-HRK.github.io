@@ -1,8 +1,9 @@
 ---
 title: Leetcode 238 除自身以外的积
 tags:
-  - Leeicode
+  - Leetcode
   - 前缀积
+  - C++
 
 ---
 
