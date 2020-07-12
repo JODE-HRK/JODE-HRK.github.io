@@ -152,11 +152,11 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             background-position: 0% 0%;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-image: url(/BackGroundPic/background.webp);
+            background-image: url(/BackGroundPic/background.jpg);
           }
           @media (min-aspect-ratio: 2400/1850) {
             .wrap {
-              background-image: url(/BackGroundPic/background.webp);
+              background-image: url(/BackGroundPic/background.jpg);
             }
           }
           .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
