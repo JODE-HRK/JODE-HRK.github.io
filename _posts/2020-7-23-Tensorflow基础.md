@@ -135,6 +135,7 @@ with tf.compat.v1.Session() as sess:
 import tensorflow as tf
 tf.compat.v1.disable_eager_execution()
 x = tf.compat.v1.placeholder("float",None) 
+# x = tf.compat.v1.placeholder("float",[None,4]) 表示能开二维数组，但只有4列
 y = x*10+500
 with tf.compat.v1.Session() as sess:
     placeX = sess.run(y,feed_dict = {x: [0,5,15,25]})
@@ -151,3 +152,50 @@ with tf.compat.v1.Session() as sess:
 - 再feed_dict中给定x的值来运行y
 - 输出运行过后的值
 
+Tips：当调用 ```tf.constant```时，常量会被初始化，并且其值也不会再发生变化。调用```tf.Variable```时，变量不会被初始化。想在Tensorflow里初始化所有变量，必须显式地调用如下特殊操作
+
+```sess.run(tf.global_variables_initializer())```初始化所有的全局变量
+
+### 五、创建张量
+
+​	图片是一个三阶的张量，其维度为 高、宽以及通道数（红、蓝、绿）
+
+```python
+import tensorflow as tf
+tf.compat.v1.disable_eager_execution()
+image = tf.image.decode_jpeg(tf.compat.v1.read_file("D:/Desktop/1.jpg"),channels=3)
+sess = tf.compat.v1.InteractiveSession()
+print(sess.run(tf.shape(image)))
+print(sess.run((image[10:15,0:4,1])))
+```
+
+
+
+- 固定张量
+
+  ```python
+  A = tf.zeros([2,3])
+  B = tf.ones([4,3])
+  C = tf.fill([2,3],21)
+  D = tf.diag([4,-3,2])
+  E = tf.constant([5,4,2,1,3])
+  ```
+
+- 序列张量
+
+  ```python
+  G = tf.range(start = 6, limit = 45, delta =3) #给定增量
+  H = tf.linspace(10.0,92.0,5) #均分成5段
+  ```
+
+  
+
+- 随机张量
+
+```python
+R1 = tf.compat.v1.random_uniform([2,3],minval = 0, maxval =4) #从给定范围生成均匀分布的随机值
+R2 = tf.compat.v1.random_normal([2,3],mean=5,stddev=4) # 从给定的均值和标准差的正态分布生成随机值
+R3 = tf.compat.v1.random_shuffle(tf.compat.v1.diag([3,-2,4])) #生成对角张量，并随机排列
+```
+
+### 六、矩阵操作
