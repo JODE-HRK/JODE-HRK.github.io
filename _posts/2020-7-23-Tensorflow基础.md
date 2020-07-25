@@ -95,9 +95,59 @@ with tf.Session(graph = myGraph) as sess:
 在TensorFlow中创建一个常量并输出
 
 ```python
-import tensorflow as tf
-x = tf.constant(12,dtype='float32')
-sess = tf.compat.v1.Session() #.Session不能用，需要使用该行代码代替
-print(sess.run(x))
+import tensorflow as tf # 导入
+tf.compat.v1.disable_eager_execution() # 标记
+x = tf.constant(12,dtype='float32') #创建常量值（x），并指定为12
+sess = tf.compat.v1.Session() # 标记	创建会话来计算
+print(sess.run(x))	#仅运行变量x，进行输出
+#使用tensorflow2.0的小伙伴，需要将大佬标记的两行才能正常运行
 ```
+
+另一种写法：
+
+```python
+import tensorflow as tf
+tf.compat.v1.disable_eager_execution()
+x = tf.constant(12,dtype='float32')
+with tf.compat.v1.Session() as sess:
+    print(sess.run(x))
+```
+
+如何创建变量并将其初始化
+
+```python
+import tensorflow as tf
+tf.compat.v1.disable_eager_execution()
+x = tf.constant([14,23,40,30])
+y = tf.Variable(x*2+100)
+#初始化变量
+model = tf.compat.v1.global_variables_initializer() #此处也会因为版本问题导致错误
+with tf.compat.v1.Session() as sess:
+    sess.run(model)
+    print(sess.run(y))
+```
+
+### 四、占位符
+
+可以在之后再对其进行赋值。占位符用来接收外部输入，其可以为一维或者多维，存储n维数组
+
+```python
+import tensorflow as tf
+tf.compat.v1.disable_eager_execution()
+x = tf.compat.v1.placeholder("float",None) 
+y = x*10+500
+with tf.compat.v1.Session() as sess:
+    placeX = sess.run(y,feed_dict = {x: [0,5,15,25]})
+    print(placeX)
+```
+
+解释：
+
+- 导入
+- 创建占位符x并指定类型
+
+- 创建张量y，注意此时x初始值未确定
+- 创建会话来计算
+- 再feed_dict中给定x的值来运行y
+- 输出运行过后的值
 
