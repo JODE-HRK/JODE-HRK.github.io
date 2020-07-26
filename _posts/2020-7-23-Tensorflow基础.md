@@ -154,7 +154,11 @@ with tf.compat.v1.Session() as sess:
 
 Tips：当调用 ```tf.constant```时，常量会被初始化，并且其值也不会再发生变化。调用```tf.Variable```时，变量不会被初始化。想在Tensorflow里初始化所有变量，必须显式地调用如下特殊操作
 
-```sess.run(tf.global_variables_initializer())```初始化所有的全局变量
+```python
+sess.run(tf.global_variables_initializer()) #初始化所有的全局变量
+```
+
+
 
 ### 五、创建张量
 
