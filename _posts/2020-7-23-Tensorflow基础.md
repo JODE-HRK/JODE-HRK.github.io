@@ -199,3 +199,126 @@ R3 = tf.compat.v1.random_shuffle(tf.compat.v1.diag([3,-2,4])) #生成对角张�
 ```
 
 ### 六、矩阵操作
+
+```python
+import tensorflow as tf
+import numpy as np
+tf.compat.v1.disable_eager_execution()
+sess = tf.compat.v1.Session()
+A = tf.compat.v1.random_uniform([3,2])
+B = tf.fill([2,4],3.5)
+C = tf.compat.v1.random_normal([3,4])
+print(sess.run(A))
+print(sess.run(B))
+print(sess.run(C))
+print(sess.run(tf.matmul(A,B)+C))  #矩阵的乘法和加法
+```
+
+### 七、激活函数
+
+​	激活函数的想法来自于对人脑神经元工作机理的分析。神经元在某个阈值（活化电位）之上会被激活。大多数情况下，激活函数还意在将输出限制再一个小的范围内。
+
+Sigmoid、双曲正切，ReLU和LU是流行的激活函数
+
+* 双曲正切与Sigmoid
+  * 双曲正切无论输入什么，输出都在-1~1之间
+  * Sigmoid，无论输入什么，输出在0~1之间
+
+```python
+import tensorflow as tf
+import numpy as np
+tf.compat.v1.disable_eager_execution()
+sess = tf.compat.v1.Session()
+E = tf.nn.tanh([10,2,1,0.5,0,-0.5,-1,-2.,-10.])
+print(sess.run(E))
+F = tf.nn.sigmoid([10,2,1,0.5,0,-0.5,-1,-2.,-10.])
+print(sess.run(F))
+```
+
+- ReLU与ELU
+
+![](\JODE-HRK.github.io\assets\image\激活函数1.png)
+
+Relu函数，将所有小于0的值都变为0，其余不变；而ELU函数，在小于0的部分，将无限趋近于-1
+
+- ReLU6
+
+除了输出不超过6以外，与ReLU相同
+
+### 八、损失函数（代价函数）
+
+​	用来最小化以得到模型每个参数的最优值。举个栗子：为了用预测器（X）来预测目标（y）的值，需要获得权重值（斜率）和偏置量（y的截距）。得到斜率和截距最优值的方法是最小化代价函数/损失函数/平方和。对于任何一个模型来说，都有很多参数，而且预测或进行分类的模型结构也是通过参数的数值来表示的。
+
+​	你需要计算模型，并且为了达到这个目的，需要定义代价函数（损失函数）。最小化损失函数就是为了寻找这个参数的最优值。对于回归/数值预测问题来说，L1或L2是很有用的损失函数。对于分类来说，交叉熵是很有用的损失函数。Softmax或者Sigmoid交叉熵都是非常流行的损失函数。
+
+- 损失函数实例
+
+```python
+import tensorflow as tf
+import numpy as np
+tf.compat.v1.disable_eager_execution()
+sess = tf.compat.v1.Session()
+#Assuming prediction model
+pred = np.asarray([0.2,0.3,0.5,10.0,12.0,13.0,3.5,7.4,3.9,2.3])
+#convert ndarray into tensor
+x_val = tf.convert_to_tensor(pred)
+#assuming actual values
+actual = np.asarray([0.1,0.4,0.6,9.0,11.0,12.0,3.4,7.1,3.8,2.0])
+#L2 loss:L1 = (pred-actual)^2
+l2 = tf.square(pred-actual)
+l2_out = sess.run(tf.round(l2))
+print(l2_out)
+
+#L2 loss:L1 = abs(pred - actual)
+l1 = tf.abs(pred-actual)
+l1_out = sess.run(l1)
+print(l1_out)
+
+#cross entropy loss
+softmax_xentropy_variable = tf.nn.sigmoid_cross_entropy_with_logits(logits=l1_out,labels=l2_out)
+print(sess.run(softmax_xentropy_variable))
+```
+
+### 九、优化器
+
+你假定了模型中的权重和偏置量的初始值。现在需要你找到抵达参数最优值的方法。优化器就是找到参数最优值的方法。在每一次迭代中，参数值朝优化器指明的方向去更新。举个栗子：你有16个权值（w1~w16）和4个偏置量（b1~b4）。开始你可以指定每个权重值和偏置量为0（或者是1，其他任意数值均可）。优化器时刻谨记着最小化的目标，决定w1以及其他参数在下一次迭代中应该是增加还是减少。在很多次迭代之后，w1或者其他参数将会趋于稳定而达到最优值。
+
+优化器的目标就是给定权重值和偏置量下一次迭代时变化的方向。假定有64个权重值和16个偏置量，尝试在每次迭代中改变其值（在反向传播中），在尝试最小化损失函数的很多次迭代之后，应该能够得到正确的权值和偏置量。
+
+为模型选择一个好的优化器，收敛快并且能够学到合适的权重和偏置量，是一个需要技巧的事情
+
+自适应技术，对于复杂的神经网络模型来说是很好的优化器，收敛更快。大多数情况下，Adam可能是最好的优化器。Adam还优于其他的自适应技术，但其计算成本很高。对于稀疏数据集来说，一些方法，如SGD、NAG以及momentum，都不是最好的选择，能自适应调整学习率的方法才是。一个附加的好处就是不需要调整学习率，实用默认的学习率就可以达到最优解。
+
+- 优化器实例
+
+```python
+#-*- coding:utf-8 -*-
+#@Time : 2020/6/9 19:44
+#@Athor : JODE
+#@File : NeedSighin.py
+#@Software: PyCharm
+import tensorflow as tf
+tf.compat.v1.disable_eager_execution()
+#Assign the value into variable
+x = tf.Variable(3,name='x',dtype=tf.float32)
+log_x = tf.compat.v1.log(x);
+log_x_squared = tf.square(log_x)
+
+#Apply GradientDescentPotimizer
+optimizer = tf.compat.v1.train.GradientDescentOptimizer(0.7)
+train = optimizer.minimize(log_x_squared)
+
+#Initialize Variables
+init = tf.compat.v1.global_variables_initializer()
+
+#Finally running computation
+with tf.compat.v1.Session() as session:
+    session.run(init)
+    print("starting at","x:",session.run(x),"log(x)^2:",session.run(log_x_squared))
+    for step in range(10):
+        session.run(train)
+        print("step",step,"x:",session.run(x),"log(x)^2:",session.run(log_x_squared))
+```
+
+### 度量
+
