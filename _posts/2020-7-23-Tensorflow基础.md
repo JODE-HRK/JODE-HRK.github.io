@@ -326,3 +326,32 @@ with tf.compat.v1.Session() as session:
 
 ### 度量
 
+用来评估模型。
+
+评估模型的指标：分类准确率、对数损失以及ROC曲线下的面积（AUC）是流行的几个指标
+
+```python
+import tensorflow as tf
+import numpy as np
+tf.compat.v1.disable_eager_execution()
+#placeholders declaration
+x = tf.compat.v1.placeholder(tf.int32,[5])
+y = tf.compat.v1.placeholder(tf.int32,[5])
+
+#Metrices declaration
+acc, acc_op = tf.compat.v1.metrics.accuracy(labels=x,predictions=y);
+
+#session initilization
+sess = tf.compat.v1.InteractiveSession()
+sess.run(tf.compat.v1.global_variables_initializer())
+sess.run(tf.compat.v1.local_variables_initializer())
+
+#value assign
+val= sess.run([acc,acc_op],feed_dict={x:[1,1,0,1,0],y:[0,1,0,0,1]})
+
+#print Acuracy
+val_acc = sess.run(acc)
+print(val_acc)
+```
+
+创建了真实值x和预测值y，检验准确率，为0.4
