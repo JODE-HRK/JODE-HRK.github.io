@@ -25,7 +25,7 @@ baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上
 jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
   default:
     body:
-      theme-base: theme-base-0a # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
+      theme-base: theme-base-07 # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
       layout-reverse: true # 开启后sidebar在右边，反之左边
       sidebar-overlay: true # 开启后正文不随sidebar移动而移动
     append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章 <https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
@@ -149,7 +149,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             min-height: 100%;
             display: inline-block;
             background-size: 100% auto;
-            background-position: 0% 0%;
+            background-position: 100% 100%;
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-image: url(/BackGroundPic/backround.jpg);
