@@ -152,7 +152,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             background-position: 0% 0%;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-image: url(/BackGroundPic/background.jpg);
+            background-image: url(/BackGroundPic/backround.jpg);
           }
           @media (min-aspect-ratio: 2400/1850) {
             .wrap {
@@ -486,7 +486,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - | # 代码块超过半屏的时候自动折叠
         <style>
           pre {
-            max-height: 50vh;
+            max-height: 100vh;
             overflow: auto;
           }
         </style>
