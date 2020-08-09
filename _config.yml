@@ -506,7 +506,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             padding-bottom: 1rem;
             margin-bottom: 2rem;
             box-shadow: 0 0 .75rem rgba(0, 0, 0, 0.1);
-            background-color: rgba(255, 255, 255, 0.95);
+            background-color: transparent;	# rgba(255, 255, 255, 0.95);
             animation-duration: 2s;
             animation-name: fadeIn;
           }
@@ -579,7 +579,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
     group_by: '%b %Y' # 见<https://liquid.bootcss.com/filters/date/>
     posts_count:
       enable: true # 博文数量统计
-      append: 篇博文。长路漫漫！ # 提示语
+      append: 篇博文。还是太菜了！ # 提示语
     pie_chart: # 显示一个标签的饼状统计图，需要引入 mermaid
       enable: true
     year_count: true
