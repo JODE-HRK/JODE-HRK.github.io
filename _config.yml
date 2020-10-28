@@ -148,10 +148,11 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             transition-timing-function: ease-in-out;
             min-height: 100%;
             display: inline-block;
-            background-size: 100% auto;
+            background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-attachment: fixed;
+            background-origin: content-box;
+            background-attachment: scroll;
             background-image: url(/BackGroundPic/backround.jpg);
           }
           @media (min-aspect-ratio: 2400/1850) {
