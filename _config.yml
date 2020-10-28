@@ -149,7 +149,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             min-height: 100%;
             display: inline-block;
             background-size: 100% auto;
-            background-position: 100% 100%;
+            background-position: 100% auto;
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-image: url(/BackGroundPic/backround.jpg);
