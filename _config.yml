@@ -1,4 +1,4 @@
-title: wu-kan # 站点标题
+title: JODE # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   HUNNU18级在读<br/>
   永远喜欢孤独<br/>
@@ -31,7 +31,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
         default:
           body:
             theme-base: theme-base-07 # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
-            layout-reverse: false # 开启后sidebar在右边，反之左边
+            layout-reverse: true # 开启后sidebar在右边，反之左边
             sidebar-overlay: true # 开启后正文不随sidebar移动而移动
           append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章 <https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
             - | #一些页面优化标签，看不懂可跳过
@@ -57,7 +57,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               <link
                 rel="shortcut
                 icon"
-                href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583038905574&di=1f939bf35b3fd2025f29473930bde8a4&imgtype=jpg&src=http%3A%2F%2F17woo.tgbusdata.cn%2Fforum%2F201408%2F31%2F14462695um24uod40mgsq9.jpghttps://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583038905574&di=1f939bf35b3fd2025f29473930bde8a4&imgtype=jpg&src=http%3A%2F%2F17woo.tgbusdata.cn%2Fforum%2F201408%2F31%2F14462695um24uod40mgsq9.jpg"
+                href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583038905574&di=1f939bf35b3fd2025f29473930bde8a4&imgtype=jpg&src=http%3A%2F%2F17woo.tgbusdata.cn%2Fforum%2F201408%2F31%2F14462695um24uod40mgsq9.jpg"
               />
             - | # 来自lanyon的页面样式，不要改
               <link
@@ -152,11 +152,11 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
-                  background-image: url(/BackGroundPic/backround.jpg);
+                  background-image: url(/BackGroundPic/backround.webp);
                 }
                 @media (min-aspect-ratio: 2400/1850) {
                   .wrap {
-                    background-image: url(/BackGroundPic/backround.jpg);
+                    background-image: url(/BackGroundPic/backround.webp);
                   }
                 }
                 .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
@@ -220,7 +220,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             disable: false # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
               enable: true
-              img: https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320 # 头像的地址
+              img: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583038905574&di=1f939bf35b3fd2025f29473930bde8a4&imgtype=jpg&src=http%3A%2F%2F17woo.tgbusdata.cn%2Fforum%2F201408%2F31%2F14462695um24uod40mgsq9.jpg # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fas fa-home fa-fw"></i> 首页'
                 href: /
@@ -369,7 +369,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     document.getElementById("run_time_hour"),
                     document.getElementById("run_time_minute"),
                     document.getElementById("run_time_second"),
-                    "10/04/2017 11:03:56")// 这是我第一篇CSDN博客的时间
+                    "02/20/2020 22:00:00")// 这是我第一篇CSDN博客的时间
                   </script>
                 </div>
               - | # 不蒜子页面统计，看不懂可不改
@@ -604,19 +604,19 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
               <script>
                 var usage = "payment";
-          	var wechat = "wxp://f2f0LavS1YsV9WzcDO_3gZzPxAs9CKnxb7lo";
-          	var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQgtawwgMYhq3s8gU%3D_xxx_sign&u=944515842&n=%E6%AD%BB%E8%8F%9C%E9%B8%A1%2F8*";
-          	var alipay =  "HTTPS://QR.ALIPAY.COM/FKX073545YYPJ7YFUEBMF2";
-          	var paypal = "";
-          	var myname = "JODE";
-          	var profile = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583038905574&di=1f939bf35b3fd2025f29473930bde8a4&imgtype=jpg&src=http%3A%2F%2F17woo.tgbusdata.cn%2Fforum%2F201408%2F31%2F14462695um24uod40mgsq9.jpg";
-          	var multilingual = true;
-          	var myname_hans = "贺榕宽";
-          	var myname_hant = "贺榕宽";
-          	var myname_eng = "JODE";
-          	var title = "选择你的支付方式";
-          	var subtitle = "跟随进一步的指示以向" + myname + "付款";
-          	var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
+                var wechat = "wxp://f2f0LavS1YsV9WzcDO_3gZzPxAs9CKnxb7lo";
+                var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQgtawwgMYhq3s8gU%3D_xxx_sign&u=944515842&n=%E6%AD%BB%E8%8F%9C%E9%B8%A1%2F8*";
+                var alipay = "HTTPS://QR.ALIPAY.COM/FKX073545YYPJ7YFUEBMF2";
+                var paypal = "";
+                var myname = "JODE";
+                var profile = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583038905574&di=1f939bf35b3fd2025f29473930bde8a4&imgtype=jpg&src=http%3A%2F%2F17woo.tgbusdata.cn%2Fforum%2F201408%2F31%2F14462695um24uod40mgsq9.jpg";
+                var multilingual = true;
+                var myname_hans = "贺榕宽";
+                var myname_hant = "贺榕宽";
+                var myname_eng = "JODE";
+                var title = "选择你的支付方式";
+                var subtitle = "跟随进一步的指示以向" + myname + "付款";
+                var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
               </script>
             - |
               <meta
@@ -691,6 +691,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 homePageUrl='/'
                 homePageName='回到我的主页'
               ></script>
+
 compress_html: # <https://github.com/penibelst/jekyll-compress-html>
   clippings: all
   comments: [] # 注释不能压缩，否则 reveal.js 的 ppt切屏受影响
