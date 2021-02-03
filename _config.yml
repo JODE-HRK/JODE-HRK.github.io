@@ -52,12 +52,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
-                href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583038905574&di=1f939bf35b3fd2025f29473930bde8a4&imgtype=jpg&src=http%3A%2F%2F17woo.tgbusdata.cn%2Fforum%2F201408%2F31%2F14462695um24uod40mgsq9.jpg"
+                href="/head.jpg"
               />
               <link
                 rel="shortcut
                 icon"
-                href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583038905574&di=1f939bf35b3fd2025f29473930bde8a4&imgtype=jpg&src=http%3A%2F%2F17woo.tgbusdata.cn%2Fforum%2F201408%2F31%2F14462695um24uod40mgsq9.jpg"
+                href="/head.jpg"
               />
             - | # 来自lanyon的页面样式，不要改
               <link
