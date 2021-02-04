@@ -51,4 +51,3 @@ print(model.predict(x))
 #打印预测结果
 print(model.predict(pd.Series([20])))
 ```
-
