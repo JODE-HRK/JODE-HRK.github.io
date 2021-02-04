@@ -2,31 +2,31 @@
 
 欢迎访问我的个人主页！我是JODE！
 
-<!-- slide -->
+<!-- .slide -->
 
 ## My Contacts
 
 - Phone: **+86 18390948041**
 - Site:  **www.joderider.cn**
 
-<!-- slide vertical=true -->
+<!-- .slide vertical=true -->
 
 - E-mail:**944515842@qq.com**
 - WeChat: **JODEhrk**
 - QQ: **944515842**
 
-<!-- slide -->
+<!-- .slide -->
 
 ## My Skills
 
-<!-- slide vertical=true -->
+<!-- .slide vertical=true -->
 
 - **C/C++**, Learning
   - **Algorithm** Learning
 - **JAVA**, Familiar
 - **Git**, Learning
 
-<!-- slide -->
+<!-- .slide -->
 
 ## My Achievements
 
