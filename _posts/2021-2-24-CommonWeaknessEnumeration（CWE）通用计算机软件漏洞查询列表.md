@@ -16,9 +16,9 @@ CWE是一种通用的标准化术语，是软件安全工具的衡量标准，�
 
 CWE提供了三种概念，并基于这三种概念设计出来研究、软件开发和硬件设计的三种类型的视图，每一种图都是一个多层次的树状图体系，每种体系下都有如下类似的结构。
 
-![](C:\Users\Lenovo\Desktop\JODE\Blog\JODE-HRK.github.io\assets\image\CWE三种概念.png)
+![](\JODE-HRK.github.io\assets\image\CWE三种概念.png)
 
-![](C:\Users\Lenovo\Desktop\JODE\Blog\JODE-HRK.github.io\assets\image\CWE树状图体系.png)
+![](\JODE-HRK.github.io\assets\image\CWE树状图体系.png)
 
 ### Research Concepts 研究概念视图
 
@@ -26,11 +26,11 @@ CWE提供了三种概念，并基于这三种概念设计出来研究、软件�
 
 下面给出研究型视图样例，此图中每个类别下包含基础漏洞和变体漏洞等
 
-![](C:\Users\Lenovo\Desktop\JODE\Blog\JODE-HRK.github.io\assets\image\CWE研究型概念图示意.png)
+![](\JODE-HRK.github.io\assets\image\CWE研究型概念图示意.png)
 
 将每一种具体的漏洞进行分类，并为其建立详细的条目，再以divide by zero为例
 
-![](C:\Users\Lenovo\Desktop\JODE\Blog\JODE-HRK.github.io\assets\image\CWE条目的示例.png)
+![](\JODE-HRK.github.io\assets\image\CWE条目的示例.png)
 
 ### SoftwareDevelopment软件开发概念视图
 
@@ -38,11 +38,11 @@ CWE提供了三种概念，并基于这三种概念设计出来研究、软件�
 
 给出示例，可以看出每一个类别下包含其他类目、类别、基础和变体漏洞等
 
-![](C:\Users\Lenovo\Desktop\JODE\Blog\JODE-HRK.github.io\assets\image\CWE软件开发型示例.png)
+![](\JODE-HRK.github.io\assets\image\CWE软件开发型示例.png)
 
 同样，这里也为每一个类目创建了内容页面
 
-![](C:\Users\Lenovo\Desktop\JODE\Blog\JODE-HRK.github.io\assets\image\CWE软件开发型条目示例.png)
+![](\JODE-HRK.github.io\assets\image\CWE软件开发型条目示例.png)
 
 ### 硬件设计概念视图
 
